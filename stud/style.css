@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#userList {
+    width: 200px;
+    display: inline-block;
+}
+
+#userList>li {
+    cursor: pointer;
+    list-style: none;
+}
+
+#userList>li:hover {
+    background-color: orange;
+}
+        
+.menu {
+    width: 150px;
+    box-shadow: 3px 3px 5px #888888;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 5px;
+    position: fixed;
+    display: none;
+    background-color: lightgreen;
+}
+
+.menu-item {
+    height: 20px;
+}
+
+.menu-item:hover {
+    background-color: #6CB5FF;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
